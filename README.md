@@ -1,5 +1,3 @@
-# OpenTokVideoChat
-Vonage(OpenTok) video chat demo in swift
 
 # Callkit Integration with Vonage OpenTok
 
