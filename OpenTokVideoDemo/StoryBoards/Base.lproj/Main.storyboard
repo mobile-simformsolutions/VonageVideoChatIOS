@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hhq-Xm-DXP">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="azZ-EU-LjT">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="hhq-Xm-DXP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VO9-ZV-gwc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qcx-7l-atX" kind="relationship" relationship="rootViewController" id="xXW-p6-KL9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="70H-Kz-vE4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-349" y="-31"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="vKt-Xz-Icd">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="qcx-7l-atX" customClass="HomeViewController" customModule="OpenTokVideoDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fkK-uY-YDV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VideoChat Screen automatically appear when call comes" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnw-N9-cNQ">
+                                <rect key="frame" x="16" y="432.5" width="382" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Bnw-N9-cNQ" firstAttribute="centerX" secondItem="cu0-CD-f2a" secondAttribute="centerX" id="ZRp-qx-Qf3"/>
+                            <constraint firstItem="Bnw-N9-cNQ" firstAttribute="centerY" secondItem="cu0-CD-f2a" secondAttribute="centerY" id="ebT-Cc-2JK"/>
+                            <constraint firstItem="cu0-CD-f2a" firstAttribute="trailing" secondItem="Bnw-N9-cNQ" secondAttribute="trailing" constant="16" id="eou-yl-OsK"/>
+                            <constraint firstItem="Bnw-N9-cNQ" firstAttribute="leading" secondItem="cu0-CD-f2a" secondAttribute="leading" constant="16" id="tP4-ZY-poi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cu0-CD-f2a"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h8v-E9-Ghj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HXO-oW-Ooy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="-31"/>
+        </scene>
+        <!--Video Chat View Controller-->
+        <scene sceneID="DxD-5i-mQB">
+            <objects>
+                <viewController storyboardIdentifier="VideoChatViewController" id="5Nk-9Z-WYd" customClass="VideoChatViewController" customModule="OpenTokVideoDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xSI-BO-bwD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qbF-JI-9b2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="va7-ww-3Ix">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMo-AN-dlo">
+                                        <rect key="frame" x="20" y="64" width="19.5" height="22"/>
+                                        <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <state key="normal" image="arrow.left" catalog="system"/>
+                                        <connections>
+                                            <action selector="btnBackAction:" destination="5Nk-9Z-WYd" eventType="touchUpInside" id="6LH-vR-59y"/>
+                                        </connections>
+                                    </button>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lCA-9s-Ofm">
+                                        <rect key="frame" x="294" y="50" width="100" height="165"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="100" id="PxK-Zy-fvR"/>
+                                            <constraint firstAttribute="height" constant="165" id="QN1-2h-bh2"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="JSt-lq-t3M">
+                                        <rect key="frame" x="136.5" y="790" width="141.5" height="64"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V48-Yp-gDE">
+                                                <rect key="frame" x="0.0" y="0.0" width="19" height="64"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" image="speaker.slash" catalog="system"/>
+                                                <state key="selected" image="speaker" catalog="system"/>
+                                                <connections>
+                                                    <action selector="btnSpeakerMuteAction:" destination="5Nk-9Z-WYd" eventType="touchUpInside" id="iXo-fi-odz"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9g3-MH-9Yz">
+                                                <rect key="frame" x="29" y="0.0" width="64" height="64"/>
+                                                <state key="normal" image="disconnectCall"/>
+                                                <connections>
+                                                    <action selector="btnDisconnectAction:" destination="5Nk-9Z-WYd" eventType="touchUpInside" id="EKq-2e-mBw"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaj-rO-bHs">
+                                                <rect key="frame" x="103" y="0.0" width="17.5" height="64"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" image="mic.slash" catalog="system"/>
+                                                <state key="selected" image="mic" catalog="system"/>
+                                                <connections>
+                                                    <action selector="btnMicMuteAction:" destination="5Nk-9Z-WYd" eventType="touchUpInside" id="gwh-b3-kxi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGD-mC-UEy">
+                                                <rect key="frame" x="130.5" y="0.0" width="11" height="64"/>
+                                                <color key="tintColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <state key="normal" image="pause" catalog="system"/>
+                                                <state key="selected" image="play" catalog="system"/>
+                                                <connections>
+                                                    <action selector="videoPausePlayAction:" destination="5Nk-9Z-WYd" eventType="touchUpInside" id="kWU-ll-de3"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lCA-9s-Ofm" secondAttribute="trailing" constant="20" id="B4f-xc-vFE"/>
+                                    <constraint firstItem="va7-ww-3Ix" firstAttribute="top" secondItem="qbF-JI-9b2" secondAttribute="top" id="ZaI-IF-vAq"/>
+                                    <constraint firstItem="tMo-AN-dlo" firstAttribute="leading" secondItem="qbF-JI-9b2" secondAttribute="leading" constant="20" id="Zam-Hl-ZW3"/>
+                                    <constraint firstAttribute="bottom" secondItem="va7-ww-3Ix" secondAttribute="bottom" id="eEs-dg-xcZ"/>
+                                    <constraint firstItem="va7-ww-3Ix" firstAttribute="leading" secondItem="qbF-JI-9b2" secondAttribute="leading" id="i01-7Z-oeG"/>
+                                    <constraint firstAttribute="trailing" secondItem="va7-ww-3Ix" secondAttribute="trailing" id="r6B-9i-Wnr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="qbF-JI-9b2" firstAttribute="trailing" secondItem="LNu-6E-bZR" secondAttribute="trailing" id="3Yg-KK-X0o"/>
+                            <constraint firstAttribute="bottom" secondItem="qbF-JI-9b2" secondAttribute="bottom" id="8pS-bg-0Hp"/>
+                            <constraint firstItem="LNu-6E-bZR" firstAttribute="bottom" secondItem="JSt-lq-t3M" secondAttribute="bottom" constant="8" id="Bwe-Zf-Fyp"/>
+                            <constraint firstItem="qbF-JI-9b2" firstAttribute="leading" secondItem="LNu-6E-bZR" secondAttribute="leading" id="F8b-0e-CwT"/>
+                            <constraint firstItem="qbF-JI-9b2" firstAttribute="top" secondItem="xSI-BO-bwD" secondAttribute="top" id="Kus-HZ-eqX"/>
+                            <constraint firstItem="JSt-lq-t3M" firstAttribute="centerX" secondItem="LNu-6E-bZR" secondAttribute="centerX" id="gyA-ez-ouJ"/>
+                            <constraint firstItem="lCA-9s-Ofm" firstAttribute="top" secondItem="LNu-6E-bZR" secondAttribute="top" constant="6" id="uZp-3C-3mk"/>
+                            <constraint firstItem="tMo-AN-dlo" firstAttribute="top" secondItem="LNu-6E-bZR" secondAttribute="top" constant="20" id="xkg-8U-ZWn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LNu-6E-bZR"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnBack" destination="tMo-AN-dlo" id="zZL-Iy-OM6"/>
+                        <outlet property="btnDisconnect" destination="9g3-MH-9Yz" id="8qm-Ze-Gj5"/>
+                        <outlet property="btnMic" destination="zaj-rO-bHs" id="dfa-PT-LwD"/>
+                        <outlet property="btnSpeaker" destination="V48-Yp-gDE" id="obZ-0y-VsO"/>
+                        <outlet property="heightMyVideoContainer" destination="QN1-2h-bh2" id="QOr-tw-wOG"/>
+                        <outlet property="stackChatControl" destination="JSt-lq-t3M" id="4ux-Up-vAr"/>
+                        <outlet property="trailingMyVideoContainer" destination="B4f-xc-vFE" id="aLU-KV-kQQ"/>
+                        <outlet property="viewContainer" destination="qbF-JI-9b2" id="jtm-y6-4k9"/>
+                        <outlet property="viewMyVideoContainer" destination="lCA-9s-Ofm" id="BJd-p1-iS9"/>
+                        <outlet property="viewOpponentVideoContainer" destination="va7-ww-3Ix" id="PW5-kW-8c6"/>
+                        <outlet property="widthMyVideoContainer" destination="PxK-Zy-fvR" id="y80-az-Dnv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRf-Ii-CTc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1145" y="-43"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
+        <image name="disconnectCall" width="64" height="64"/>
+        <image name="mic" catalog="system" width="108" height="128"/>
+        <image name="mic.slash" catalog="system" width="112" height="128"/>
+        <image name="pause" catalog="system" width="88" height="128"/>
+        <image name="play" catalog="system" width="120" height="128"/>
+        <image name="speaker" catalog="system" width="128" height="121"/>
+        <image name="speaker.slash" catalog="system" width="128" height="124"/>
+    </resources>
+</document>
