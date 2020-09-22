@@ -26,7 +26,7 @@ Use CocoaPods to install the project files and dependencies.
 1. Use Xcode to build and run the app on an iOS simulator or device.
 
 ### Exploring Project
-![demo](./callDemo.mov)
+
  ***You will need a device to test the followings***
  
 **Simulate an incoming call**
