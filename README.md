@@ -5,6 +5,9 @@
 
 This repositiry is an example project of how to integrate [Callkit](https://developer.apple.com/documentation/callkit) into OpenTok iOS SDK. Integrated with WhatsApp type picture-in-picture UI.
 
+### Preview
+![alt text](https://github.com/mobile-simformsolutions/OpenTokVideoChatIOS/blob/master/preview.gif)
+
 ### Included Points
 - OpenTok VideoChat Integration.
 - Callkit configured with OpenTok.
@@ -31,5 +34,5 @@ The Home screen is visible till no incomming calls received. To make it working,
 
 **Use [Pusher](https://github.com/noodlewerk/NWPusher) for VOIP push **
 
-![demo](./pusher.png)
+![demo](https://github.com/mobile-simformsolutions/OpenTokVideoChatIOS/blob/master/pusher.png)
 
