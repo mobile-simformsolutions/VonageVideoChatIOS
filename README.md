@@ -3,7 +3,7 @@
 
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org)
 
-This repositiry is an example project of how to integrate [Callkit](https://developer.apple.com/documentation/callkit) into OpenTok iOS SDK. Integrated with WhatsApp type picture-in-picture UI.
+This repository is an example project of how to integrate [Callkit](https://developer.apple.com/documentation/callkit) into OpenTok iOS SDK. Integrated with WhatsApp type picture-in-picture UI.
 
 ### Preview
 ![alt text](https://github.com/mobile-simformsolutions/OpenTokVideoChatIOS/blob/master/preview.gif)
