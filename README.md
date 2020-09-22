@@ -30,7 +30,7 @@ Use CocoaPods to install the project files and dependencies.
  ***You will need a device to test the followings***
  
 **Simulate an incoming call**
-The Home screen is visible till no incomming calls received. To make it working, Fire VOIP push notificaiton to the application and accept the call.
+The Home screen is visible till no incoming calls received. To make it working, Fire VOIP push notificaiton to the application and accept the call.
 
 **Use [Pusher](https://github.com/noodlewerk/NWPusher) for VOIP push **
 
