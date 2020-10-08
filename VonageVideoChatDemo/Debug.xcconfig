@@ -1,14 +1,14 @@
 //
 //  Debug.xcconfig
-//  OpenTokVideoDemo
+//  VonageVideoChatDemo
 //
-//  Created by Abhi Makadiya on 28/08/20.
+//  Created by Abhi Makadiya on 08/10/20.
 //  Copyright © 2020 Abhi Makadiya. All rights reserved.
 //
 
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-openTokApiKey     = 
+openTokApiKey     =
 openTokSessionId  =
 openTokToken      =

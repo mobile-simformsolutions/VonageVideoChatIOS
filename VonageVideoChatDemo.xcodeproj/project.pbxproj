@@ -1,0 +1,871 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540682A633AB31F519303E13 /* Pods_VonageVideoChatDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDADFEC6E1812B2C989B85A1 /* Pods_VonageVideoChatDemoTests.framework */; };
+		63957A2FED5B8C9F21915EC1 /* Pods_VonageVideoChatDemo_VonageVideoChatDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E402CAF1154560CEB09F2EAD /* Pods_VonageVideoChatDemo_VonageVideoChatDemoUITests.framework */; };
+		BAACD192854B54322F5E9E06 /* Pods_VonageVideoChatDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55752C30C69458DA60498B8D /* Pods_VonageVideoChatDemo.framework */; };
+		CD5863A0252F442C00D945CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD58639F252F442C00D945CE /* AppDelegate.swift */; };
+		CD5863A2252F442C00D945CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863A1252F442C00D945CE /* SceneDelegate.swift */; };
+		CD5863A4252F442C00D945CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863A3252F442C00D945CE /* ViewController.swift */; };
+		CD5863A7252F442C00D945CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5863A5252F442C00D945CE /* Main.storyboard */; };
+		CD5863A9252F442E00D945CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5863A8252F442E00D945CE /* Assets.xcassets */; };
+		CD5863AC252F442E00D945CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5863AA252F442E00D945CE /* LaunchScreen.storyboard */; };
+		CD5863B7252F442E00D945CE /* VonageVideoChatDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863B6252F442E00D945CE /* VonageVideoChatDemoTests.swift */; };
+		CD5863C2252F442E00D945CE /* VonageVideoChatDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863C1252F442E00D945CE /* VonageVideoChatDemoUITests.swift */; };
+		CD5863D2252F44DF00D945CE /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863D1252F44DF00D945CE /* Environment.swift */; };
+		CD5863D6252F4C7C00D945CE /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863D4252F4C7C00D945CE /* Storyboarded.swift */; };
+		CD5863D7252F4C7C00D945CE /* Extension+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863D5252F4C7C00D945CE /* Extension+UIWindow.swift */; };
+		CD5863DD252F4D3A00D945CE /* CallKitProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863DA252F4D3A00D945CE /* CallKitProviderDelegate.swift */; };
+		CD5863DE252F4D3A00D945CE /* OTDefaultAudioDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5863DC252F4D3A00D945CE /* OTDefaultAudioDevice.m */; };
+		CD5863E3252F4ECA00D945CE /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD5863E2252F4ECA00D945CE /* Debug.xcconfig */; };
+		CD5863E5252F4EF200D945CE /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = CD5863E4252F4EF200D945CE /* Release.xcconfig */; };
+		CD5863EF252F50B300D945CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863E9252F50B300D945CE /* HomeViewController.swift */; };
+		CD5863F0252F50B300D945CE /* VideoChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863EC252F50B300D945CE /* VideoChatViewModel.swift */; };
+		CD5863F1252F50B300D945CE /* VideoChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5863EE252F50B300D945CE /* VideoChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD5863B3252F442E00D945CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD586394252F442C00D945CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD58639B252F442C00D945CE;
+			remoteInfo = VonageVideoChatDemo;
+		};
+		CD5863BE252F442E00D945CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD586394252F442C00D945CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD58639B252F442C00D945CE;
+			remoteInfo = VonageVideoChatDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49FB68E3838BAC1D90EC6BEC /* Pods-VonageVideoChatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VonageVideoChatDemoTests.release.xcconfig"; path = "Target Support Files/Pods-VonageVideoChatDemoTests/Pods-VonageVideoChatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		55752C30C69458DA60498B8D /* Pods_VonageVideoChatDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VonageVideoChatDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76ACB54AE615F8C0CC5986F9 /* Pods-VonageVideoChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VonageVideoChatDemo.release.xcconfig"; path = "Target Support Files/Pods-VonageVideoChatDemo/Pods-VonageVideoChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9B3D5E2CA805C207C7F99005 /* Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BDADFEC6E1812B2C989B85A1 /* Pods_VonageVideoChatDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VonageVideoChatDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD58639C252F442C00D945CE /* VonageVideoChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VonageVideoChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD58639F252F442C00D945CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD5863A1252F442C00D945CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD5863A3252F442C00D945CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD5863A6252F442C00D945CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD5863A8252F442E00D945CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD5863AB252F442E00D945CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD5863AD252F442E00D945CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5863B2252F442E00D945CE /* VonageVideoChatDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VonageVideoChatDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5863B6252F442E00D945CE /* VonageVideoChatDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VonageVideoChatDemoTests.swift; sourceTree = "<group>"; };
+		CD5863B8252F442E00D945CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5863BD252F442E00D945CE /* VonageVideoChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VonageVideoChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD5863C1252F442E00D945CE /* VonageVideoChatDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VonageVideoChatDemoUITests.swift; sourceTree = "<group>"; };
+		CD5863C3252F442E00D945CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5863CF252F446900D945CE /* VonageVideoChatDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VonageVideoChatDemo.entitlements; sourceTree = "<group>"; };
+		CD5863D1252F44DF00D945CE /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		CD5863D4252F4C7C00D945CE /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		CD5863D5252F4C7C00D945CE /* Extension+UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIWindow.swift"; sourceTree = "<group>"; };
+		CD5863D9252F4D3A00D945CE /* OTDefaultAudioDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTDefaultAudioDevice.h; sourceTree = "<group>"; };
+		CD5863DA252F4D3A00D945CE /* CallKitProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallKitProviderDelegate.swift; sourceTree = "<group>"; };
+		CD5863DC252F4D3A00D945CE /* OTDefaultAudioDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTDefaultAudioDevice.m; sourceTree = "<group>"; };
+		CD5863E1252F4DDE00D945CE /* VonageVideoChatDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VonageVideoChatDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		CD5863E2252F4ECA00D945CE /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		CD5863E4252F4EF200D945CE /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		CD5863E9252F50B300D945CE /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD5863EC252F50B300D945CE /* VideoChatViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatViewModel.swift; sourceTree = "<group>"; };
+		CD5863EE252F50B300D945CE /* VideoChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoChatViewController.swift; sourceTree = "<group>"; };
+		D165B8E83C8902B99B294108 /* Pods-VonageVideoChatDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VonageVideoChatDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-VonageVideoChatDemoTests/Pods-VonageVideoChatDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8BF63ADE5897321A6D22167 /* Pods-VonageVideoChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VonageVideoChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-VonageVideoChatDemo/Pods-VonageVideoChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E2981C4B9E64EAE85DF29933 /* Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E402CAF1154560CEB09F2EAD /* Pods_VonageVideoChatDemo_VonageVideoChatDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VonageVideoChatDemo_VonageVideoChatDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD586399252F442C00D945CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAACD192854B54322F5E9E06 /* Pods_VonageVideoChatDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5863AF252F442E00D945CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540682A633AB31F519303E13 /* Pods_VonageVideoChatDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5863BA252F442E00D945CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63957A2FED5B8C9F21915EC1 /* Pods_VonageVideoChatDemo_VonageVideoChatDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0EF32706275BAE94E1AB91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8BF63ADE5897321A6D22167 /* Pods-VonageVideoChatDemo.debug.xcconfig */,
+				76ACB54AE615F8C0CC5986F9 /* Pods-VonageVideoChatDemo.release.xcconfig */,
+				E2981C4B9E64EAE85DF29933 /* Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.debug.xcconfig */,
+				9B3D5E2CA805C207C7F99005 /* Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.release.xcconfig */,
+				D165B8E83C8902B99B294108 /* Pods-VonageVideoChatDemoTests.debug.xcconfig */,
+				49FB68E3838BAC1D90EC6BEC /* Pods-VonageVideoChatDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6CC3D474C357CF2FD29CD4E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55752C30C69458DA60498B8D /* Pods_VonageVideoChatDemo.framework */,
+				E402CAF1154560CEB09F2EAD /* Pods_VonageVideoChatDemo_VonageVideoChatDemoUITests.framework */,
+				BDADFEC6E1812B2C989B85A1 /* Pods_VonageVideoChatDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD586393252F442C00D945CE = {
+			isa = PBXGroup;
+			children = (
+				CD58639E252F442C00D945CE /* VonageVideoChatDemo */,
+				CD5863B5252F442E00D945CE /* VonageVideoChatDemoTests */,
+				CD5863C0252F442E00D945CE /* VonageVideoChatDemoUITests */,
+				CD58639D252F442C00D945CE /* Products */,
+				4D0EF32706275BAE94E1AB91 /* Pods */,
+				6CC3D474C357CF2FD29CD4E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD58639D252F442C00D945CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD58639C252F442C00D945CE /* VonageVideoChatDemo.app */,
+				CD5863B2252F442E00D945CE /* VonageVideoChatDemoTests.xctest */,
+				CD5863BD252F442E00D945CE /* VonageVideoChatDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD58639E252F442C00D945CE /* VonageVideoChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863E6252F50B300D945CE /* Modules */,
+				CD5863D8252F4D3A00D945CE /* CallKitDelegate */,
+				CD5863D3252F4C7C00D945CE /* Extensions */,
+				CD5863D0252F44DF00D945CE /* Constants */,
+				CD5863CF252F446900D945CE /* VonageVideoChatDemo.entitlements */,
+				CD58639F252F442C00D945CE /* AppDelegate.swift */,
+				CD5863A1252F442C00D945CE /* SceneDelegate.swift */,
+				CD5863A3252F442C00D945CE /* ViewController.swift */,
+				CD5863A5252F442C00D945CE /* Main.storyboard */,
+				CD5863A8252F442E00D945CE /* Assets.xcassets */,
+				CD5863AA252F442E00D945CE /* LaunchScreen.storyboard */,
+				CD5863AD252F442E00D945CE /* Info.plist */,
+				CD5863E2252F4ECA00D945CE /* Debug.xcconfig */,
+				CD5863E4252F4EF200D945CE /* Release.xcconfig */,
+				CD5863E1252F4DDE00D945CE /* VonageVideoChatDemo-Bridging-Header.h */,
+			);
+			path = VonageVideoChatDemo;
+			sourceTree = "<group>";
+		};
+		CD5863B5252F442E00D945CE /* VonageVideoChatDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863B6252F442E00D945CE /* VonageVideoChatDemoTests.swift */,
+				CD5863B8252F442E00D945CE /* Info.plist */,
+			);
+			path = VonageVideoChatDemoTests;
+			sourceTree = "<group>";
+		};
+		CD5863C0252F442E00D945CE /* VonageVideoChatDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863C1252F442E00D945CE /* VonageVideoChatDemoUITests.swift */,
+				CD5863C3252F442E00D945CE /* Info.plist */,
+			);
+			path = VonageVideoChatDemoUITests;
+			sourceTree = "<group>";
+		};
+		CD5863D0252F44DF00D945CE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863D1252F44DF00D945CE /* Environment.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CD5863D3252F4C7C00D945CE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863D4252F4C7C00D945CE /* Storyboarded.swift */,
+				CD5863D5252F4C7C00D945CE /* Extension+UIWindow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CD5863D8252F4D3A00D945CE /* CallKitDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863D9252F4D3A00D945CE /* OTDefaultAudioDevice.h */,
+				CD5863DA252F4D3A00D945CE /* CallKitProviderDelegate.swift */,
+				CD5863DC252F4D3A00D945CE /* OTDefaultAudioDevice.m */,
+			);
+			path = CallKitDelegate;
+			sourceTree = "<group>";
+		};
+		CD5863E6252F50B300D945CE /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863E7252F50B300D945CE /* Home */,
+				CD5863EA252F50B300D945CE /* VideoChat */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		CD5863E7252F50B300D945CE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863E8252F50B300D945CE /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CD5863E8252F50B300D945CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863E9252F50B300D945CE /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD5863EA252F50B300D945CE /* VideoChat */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863EB252F50B300D945CE /* ViewModel */,
+				CD5863ED252F50B300D945CE /* View */,
+			);
+			path = VideoChat;
+			sourceTree = "<group>";
+		};
+		CD5863EB252F50B300D945CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863EC252F50B300D945CE /* VideoChatViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD5863ED252F50B300D945CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD5863EE252F50B300D945CE /* VideoChatViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD58639B252F442C00D945CE /* VonageVideoChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5863C6252F442E00D945CE /* Build configuration list for PBXNativeTarget "VonageVideoChatDemo" */;
+			buildPhases = (
+				57DED9EF73A1C8BC28222B8A /* [CP] Check Pods Manifest.lock */,
+				CD586398252F442C00D945CE /* Sources */,
+				CD586399252F442C00D945CE /* Frameworks */,
+				CD58639A252F442C00D945CE /* Resources */,
+				FDF39EBB7348073FF6AC6F97 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VonageVideoChatDemo;
+			productName = VonageVideoChatDemo;
+			productReference = CD58639C252F442C00D945CE /* VonageVideoChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD5863B1252F442E00D945CE /* VonageVideoChatDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5863C9252F442E00D945CE /* Build configuration list for PBXNativeTarget "VonageVideoChatDemoTests" */;
+			buildPhases = (
+				F6F088F78594BC4D9C0C567A /* [CP] Check Pods Manifest.lock */,
+				CD5863AE252F442E00D945CE /* Sources */,
+				CD5863AF252F442E00D945CE /* Frameworks */,
+				CD5863B0252F442E00D945CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5863B4252F442E00D945CE /* PBXTargetDependency */,
+			);
+			name = VonageVideoChatDemoTests;
+			productName = VonageVideoChatDemoTests;
+			productReference = CD5863B2252F442E00D945CE /* VonageVideoChatDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD5863BC252F442E00D945CE /* VonageVideoChatDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5863CC252F442E00D945CE /* Build configuration list for PBXNativeTarget "VonageVideoChatDemoUITests" */;
+			buildPhases = (
+				E803EE7F615557BBCC7EDA7A /* [CP] Check Pods Manifest.lock */,
+				CD5863B9252F442E00D945CE /* Sources */,
+				CD5863BA252F442E00D945CE /* Frameworks */,
+				CD5863BB252F442E00D945CE /* Resources */,
+				5983EC3D09106D791FA0D06E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD5863BF252F442E00D945CE /* PBXTargetDependency */,
+			);
+			name = VonageVideoChatDemoUITests;
+			productName = VonageVideoChatDemoUITests;
+			productReference = CD5863BD252F442E00D945CE /* VonageVideoChatDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD586394252F442C00D945CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Abhi Makadiya";
+				TargetAttributes = {
+					CD58639B252F442C00D945CE = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					CD5863B1252F442E00D945CE = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CD58639B252F442C00D945CE;
+					};
+					CD5863BC252F442E00D945CE = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = CD58639B252F442C00D945CE;
+					};
+				};
+			};
+			buildConfigurationList = CD586397252F442C00D945CE /* Build configuration list for PBXProject "VonageVideoChatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD586393252F442C00D945CE;
+			productRefGroup = CD58639D252F442C00D945CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD58639B252F442C00D945CE /* VonageVideoChatDemo */,
+				CD5863B1252F442E00D945CE /* VonageVideoChatDemoTests */,
+				CD5863BC252F442E00D945CE /* VonageVideoChatDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD58639A252F442C00D945CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5863E3252F4ECA00D945CE /* Debug.xcconfig in Resources */,
+				CD5863AC252F442E00D945CE /* LaunchScreen.storyboard in Resources */,
+				CD5863A9252F442E00D945CE /* Assets.xcassets in Resources */,
+				CD5863A7252F442C00D945CE /* Main.storyboard in Resources */,
+				CD5863E5252F4EF200D945CE /* Release.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5863B0252F442E00D945CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5863BB252F442E00D945CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57DED9EF73A1C8BC28222B8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VonageVideoChatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5983EC3D09106D791FA0D06E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E803EE7F615557BBCC7EDA7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F088F78594BC4D9C0C567A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VonageVideoChatDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF39EBB7348073FF6AC6F97 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VonageVideoChatDemo/Pods-VonageVideoChatDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VonageVideoChatDemo/Pods-VonageVideoChatDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VonageVideoChatDemo/Pods-VonageVideoChatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD586398252F442C00D945CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5863A4252F442C00D945CE /* ViewController.swift in Sources */,
+				CD5863D2252F44DF00D945CE /* Environment.swift in Sources */,
+				CD5863DD252F4D3A00D945CE /* CallKitProviderDelegate.swift in Sources */,
+				CD5863DE252F4D3A00D945CE /* OTDefaultAudioDevice.m in Sources */,
+				CD5863D6252F4C7C00D945CE /* Storyboarded.swift in Sources */,
+				CD5863EF252F50B300D945CE /* HomeViewController.swift in Sources */,
+				CD5863D7252F4C7C00D945CE /* Extension+UIWindow.swift in Sources */,
+				CD5863A0252F442C00D945CE /* AppDelegate.swift in Sources */,
+				CD5863F0252F50B300D945CE /* VideoChatViewModel.swift in Sources */,
+				CD5863F1252F50B300D945CE /* VideoChatViewController.swift in Sources */,
+				CD5863A2252F442C00D945CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5863AE252F442E00D945CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5863B7252F442E00D945CE /* VonageVideoChatDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD5863B9252F442E00D945CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD5863C2252F442E00D945CE /* VonageVideoChatDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD5863B4252F442E00D945CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD58639B252F442C00D945CE /* VonageVideoChatDemo */;
+			targetProxy = CD5863B3252F442E00D945CE /* PBXContainerItemProxy */;
+		};
+		CD5863BF252F442E00D945CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD58639B252F442C00D945CE /* VonageVideoChatDemo */;
+			targetProxy = CD5863BE252F442E00D945CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD5863A5252F442C00D945CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5863A6252F442C00D945CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD5863AA252F442E00D945CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD5863AB252F442E00D945CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD5863C4252F442E00D945CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD5863C5252F442E00D945CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD5863C7252F442E00D945CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8BF63ADE5897321A6D22167 /* Pods-VonageVideoChatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VonageVideoChatDemo/VonageVideoChatDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				INFOPLIST_FILE = VonageVideoChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.OpenTokVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VonageVideoChatDemo/VonageVideoChatDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD5863C8252F442E00D945CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76ACB54AE615F8C0CC5986F9 /* Pods-VonageVideoChatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VonageVideoChatDemo/VonageVideoChatDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				INFOPLIST_FILE = VonageVideoChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.OpenTokVideoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VonageVideoChatDemo/VonageVideoChatDemo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD5863CA252F442E00D945CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D165B8E83C8902B99B294108 /* Pods-VonageVideoChatDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				INFOPLIST_FILE = VonageVideoChatDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.VonageVideoChatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VonageVideoChatDemo.app/VonageVideoChatDemo";
+			};
+			name = Debug;
+		};
+		CD5863CB252F442E00D945CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49FB68E3838BAC1D90EC6BEC /* Pods-VonageVideoChatDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				INFOPLIST_FILE = VonageVideoChatDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.VonageVideoChatDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VonageVideoChatDemo.app/VonageVideoChatDemo";
+			};
+			name = Release;
+		};
+		CD5863CD252F442E00D945CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2981C4B9E64EAE85DF29933 /* Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				INFOPLIST_FILE = VonageVideoChatDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.VonageVideoChatDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VonageVideoChatDemo;
+			};
+			name = Debug;
+		};
+		CD5863CE252F442E00D945CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3D5E2CA805C207C7F99005 /* Pods-VonageVideoChatDemo-VonageVideoChatDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y98X8JAPH6;
+				INFOPLIST_FILE = VonageVideoChatDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.VonageVideoChatDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VonageVideoChatDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD586397252F442C00D945CE /* Build configuration list for PBXProject "VonageVideoChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5863C4252F442E00D945CE /* Debug */,
+				CD5863C5252F442E00D945CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5863C6252F442E00D945CE /* Build configuration list for PBXNativeTarget "VonageVideoChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5863C7252F442E00D945CE /* Debug */,
+				CD5863C8252F442E00D945CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5863C9252F442E00D945CE /* Build configuration list for PBXNativeTarget "VonageVideoChatDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5863CA252F442E00D945CE /* Debug */,
+				CD5863CB252F442E00D945CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5863CC252F442E00D945CE /* Build configuration list for PBXNativeTarget "VonageVideoChatDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD5863CD252F442E00D945CE /* Debug */,
+				CD5863CE252F442E00D945CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD586394252F442C00D945CE /* Project object */;
+}

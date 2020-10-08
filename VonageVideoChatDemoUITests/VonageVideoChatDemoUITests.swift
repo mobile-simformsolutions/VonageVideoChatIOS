@@ -1,14 +1,14 @@
 //
-//  OpenTokVideoDemoUITests.swift
-//  OpenTokVideoDemoUITests
+//  VonageVideoChatDemoUITests.swift
+//  VonageVideoChatDemoUITests
 //
-//  Created by Abhi Makadiya on 27/08/20.
+//  Created by Abhi Makadiya on 08/10/20.
 //  Copyright © 2020 Abhi Makadiya. All rights reserved.
 //
 
 import XCTest
 
-class OpenTokVideoDemoUITests: XCTestCase {
+class VonageVideoChatDemoUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
