@@ -1,16 +1,16 @@
 
-# Callkit Integration with Vonage OpenTok
+# Callkit Integration with Vonage VideoChat API
 
 [![Swift 5.0](https://img.shields.io/badge/Swift-5.0-orange.svg?style=flat)](https://swift.org)
 
-This repository is an example project of how to integrate [Callkit](https://developer.apple.com/documentation/callkit) into OpenTok iOS SDK. Integrated with WhatsApp type picture-in-picture UI.
+This repository is an example project of how to integrate [Callkit](https://developer.apple.com/documentation/callkit) into Vonage iOS SDK. Integrated with WhatsApp type picture-in-picture UI.
 
 ### Preview
 ![alt text](https://github.com/mobile-simformsolutions/OpenTokVideoChatIOS/blob/master/preview.gif)
 
 ### Included Points
-- OpenTok VideoChat Integration.
-- Callkit configured with OpenTok.
+- Vonage VideoChat Integration.
+- Callkit configured with Vonage API.
 - WhatsApp type picture-in-picture UI.
 
 Use CocoaPods to install the project files and dependencies.
@@ -20,7 +20,7 @@ Use CocoaPods to install the project files and dependencies.
 1. Reopen your project in Xcode using the new `*.xcworkspace` file.
 
 ### Configure and build the app
-1. The application **requires** values for **API Key**, **Session ID**, and **Token**. In the sample, you can get these values at the [OpenTok Developer Dashboard](https://dashboard.tokbox.com/). For production deployment, you must generate the **Session ID** and **Token** values using one of the [OpenTok Server SDKs](https://tokbox.com/developer/sdks/server/).
+1. The application **requires** values for **API Key**, **Session ID**, and **Token**. In the sample, you can get these values at the [Vonage Dashboard](https://dashboard.tokbox.com/). For production deployment, you must generate the **Session ID** and **Token** values using one of the [Vonage Server SDKs](https://tokbox.com/developer/sdks/server/).
 1. Replace the following empty strings with the corresponding **API Key**, **Session ID**, and **Token** values in `.xcconfig`.
 2. Configure VOIP certificate to Project. Create it from apple developer account.
 1. Use Xcode to build and run the app on an iOS simulator or device.
